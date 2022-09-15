@@ -1,0 +1,35 @@
+.annoucement {
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.segmented {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    // background: #98cbfa;
+    border-radius: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #1890ff;
+    width: 50%;
+}
+
+::-webkit-scrollbar-track {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//     background: #555;
+// }

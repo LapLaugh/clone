@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "build/dist",
+        "module": "esnext",
+        "target": "es5",
+        "paths": {
+            "tslib": [
+                "path/to/node_modules/tslib/tslib.d.ts"
+            ],
+            "~/*": [
+                "src/*"
+            ]
+        },
+        "lib": [
+            "dom",
+            "es6",
+        ],
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "forceConsistentCasingInFileNames": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": false,
+        "importHelpers": true,
+        "strictNullChecks": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "public",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "**/*.test.ts"
+    ],
+    "include": [
+        "src",
+        "declaration.d.ts"
+    ],
+}

@@ -1,0 +1,51 @@
+// Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #fe2c55;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+mt-px {
+    margin-top: 10px;
+}
+
+mr-px {
+    margin-right: 10px;
+}
+
+mb-px {
+    margin-bottom: 10px;
+}
+
+ml-px {
+    margin-left: 10px;
+}
+
+mt-h-px {
+    margin-top: 5px;
+}
+
+mr-h-px {
+    margin-right: 5px;
+}
+
+mb-h-px {
+    margin-bottom: 5px;
+}
+
+ml-h-px {
+    margin-left: 5px;
+}
