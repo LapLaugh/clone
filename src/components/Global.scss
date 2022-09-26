@@ -18,6 +18,424 @@ body {
     font-size: 1.6rem;
 }
 
+.lucky-text {
+    position: fixed;
+    left: 85px;
+}
+
+.motivation {
+    position: fixed;
+    z-index: 11;
+    top: 78px;
+    left: 170px;
+}
+
+.block {
+    position: fixed;
+    top: 65px;
+    left: 167px;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    transform: rotate(45deg);
+    border: 1px solid gainsboro;
+}
+
+.character {
+    width: 100px;
+    height: 150px;
+
+}
+
+.head {
+    width: 80px;
+    height: 80px;
+}
+
+.head-head {
+    position: fixed;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    left: 70px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.head-mouth {
+    position: fixed;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 110px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 25% 70% 75% 0% / 0% 50% 50% 40%;
+}
+
+.ear-1 {
+    position: fixed;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    top: 18px;
+    left: 85px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 75% 72% 40% 40% / 71% 60% 17% 19%;
+}
+
+.ear-2 {
+    position: fixed;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 105px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 75% 72% 40% 40% / 71% 60% 17% 19%;
+}
+
+.shy-1 {
+    position: fixed;
+    z-index: 2;
+    width: 15px;
+    height: 10px;
+    top: 55px;
+    left: 85px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 75% 75% 75% 75% / 40% 40% 40% 40%;
+}
+
+.shy-2 {
+    position: fixed;
+    z-index: 2;
+    width: 15px;
+    height: 10px;
+    top: 55px;
+    left: 140px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 75% 75% 75% 75% / 40% 40% 40% 40%;
+}
+
+.eyelash-1 {
+    position: fixed;
+    z-index: 2;
+    width: 10px;
+    height: 5px;
+    top: 33px;
+    left: 95px;
+    background-color: white;
+    border-radius: 75% 75% 75% 75% / 40% 40% 40% 40%;
+}
+
+.eyelash-2 {
+    position: fixed;
+    z-index: 2;
+    width: 10px;
+    height: 5px;
+    top: 33px;
+    left: 130px;
+    background-color: white;
+    border-radius: 75% 75% 75% 75% / 40% 40% 40% 40%;
+}
+
+.eye-1 {
+    position: fixed;
+    z-index: 2;
+    width: 20px;
+    height: 10px;
+    top: 43px;
+    left: 95px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.eye-2 {
+    position: fixed;
+    z-index: 2;
+    width: 20px;
+    height: 10px;
+    top: 43px;
+    left: 125px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.nose {
+    position: fixed;
+    z-index: 2;
+    width: 5px;
+    height: 5px;
+    top: 60px;
+    left: 120px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.mouth {
+    position: fixed;
+    z-index: 2;
+    width: 30px;
+    height: 12px;
+    top: 75px;
+    left: 110px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.body-body {
+    position: fixed;
+    z-index: 1;
+    width: 60px;
+    height: 55px;
+    top: 75px;
+    left: 85px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 75% 72% 40% 40% / 50% 50% 0% 0%;
+}
+
+.belly {
+    position: fixed;
+    z-index: 1;
+    width: 40px;
+    height: 30px;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(255, 255, 151);
+    border-radius: 75% 72% 40% 40% / 50% 50% 0% 0%;
+}
+
+.left-arm {
+    position: fixed;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    top: 90px;
+    left: 70px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 75% 44% 36% 82% / 50% 0% 36% 50%;
+}
+
+.right-arm {
+    position: fixed;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    top: 87px;
+    left: 142px;
+    background-color: rgb(255, 203, 0);
+    border-radius: 75% 44% 99% 20% / 50% 16% 70% 50%;
+}
+
+.wings {
+    z-index: 0;
+    position: fixed;
+    top: -95px;
+    left: -132px;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper:nth-child(2) {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.w {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+
+    -webkit-transform-origin: 100% 40%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+
+    -webkit-animation: rotate 3s ease-in-out infinite alternate;
+    -moz-animation: rotate 3s ease-in-out infinite alternate;
+    -ms-animation: rotate 3s ease-in-out infinite alternate;
+    animation: rotate 3s ease-in-out infinite alternate;
+}
+
+.w:nth-child(2) {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -ms-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+.w:nth-child(3) {
+    -webkit-animation-delay: .4s;
+    -moz-animation-delay: .4s;
+    -ms-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+.w:nth-child(4) {
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    -ms-animation-delay: .6s;
+    animation-delay: .6s;
+}
+
+.w:nth-child(5) {
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    -ms-animation-delay: .8s;
+    animation-delay: .8s;
+}
+
+.w:nth-child(6) {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.w:nth-child(7) {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -ms-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+.w:nth-child(8) {
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    -ms-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.w:nth-child(9) {
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    -ms-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+.w:nth-child(10) {
+    -webkit-animation-delay: 1.8s;
+    -moz-animation-delay: 1.8s;
+    -ms-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
+
+.line {
+    position: relative;
+    width: 70px;
+    height: 10px;
+    background: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 10px 0 0 10px;
+}
+
+.w:nth-child(2) .line {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.w:nth-child(3) .line {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.w:nth-child(4) .line {
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.w:nth-child(5) .line {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.w:nth-child(6) .line {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.w:nth-child(7) .line {
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.w:nth-child(8) .line {
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.w:nth-child(9) .line {
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    transform: scale(0.2);
+}
+
+.w:nth-child(10) .line {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+}
+
+@-webkit-keyframes rotate {
+    to {
+        -webkit-transform: rotate(85deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    to {
+        -moz-transform: rotate(85deg);
+    }
+}
+
+@-ms-keyframes rotate {
+    to {
+        -ms-transform: rotate(85deg);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(85deg);
+    }
+}
+
 mt-px {
     margin-top: 10px;
 }
